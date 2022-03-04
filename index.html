@@ -69,10 +69,16 @@
 	<svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
 		<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
 	</svg>
+	<button class="btn-audio" onclick="playAudio()">Nhạc nè</button>
 	<script type="text/javascript">
 		window.onload = function () {
 			document.getElementById("my-audio").play();
 		}
+		
+		function playAudio() {
+			document.getElementById("my-audio").play();
+		}
+
 	</script>
 	<script src="./script.js"></script>
 </body>
