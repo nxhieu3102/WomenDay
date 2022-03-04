@@ -249,7 +249,7 @@ a:focus {
 }
 
 .pos-9 {
-	grid-area: 40 / 26 / 51 / 32;
+	grid-area: 35 / 26 / 51 / 32;
 }
 
 .pos-10 {
@@ -364,5 +364,8 @@ a:focus {
 	border: none;
 	border-radius: 5px;
 	color: rgb(219, 50, 20);
-	
+}
+
+.btn-audio:hover {
+	opacity: 0.8;
 }
