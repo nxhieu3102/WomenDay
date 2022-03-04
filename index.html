@@ -17,10 +17,10 @@
 		};
 
 		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-		<audio src="./Audio.m4a" id="my-audio" loop="loop"></audio>
 </head>
 
 <body class="demo-1 loading">
+	<audio src="./Audio.m4a" id="my-audio" loop="loop" autoplay="autoplay"></audio>
 	<main>
 		<div class="message">Please view this demo on a desktop to see the effect.</div>
 		<div class="frame">
@@ -70,9 +70,9 @@
 		<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
 	</svg>
 	<script type="text/javascript">
-		$(window).on('load', function () {
+		window.onload = function () {
 			document.getElementById("my-audio").play();
-		});
+		}
 	</script>
 	<script src="./script.js"></script>
 </body>
